@@ -1,0 +1,6 @@
+https://forum.parallels.com/threads/parallels-sets-self-as-default.326829/
+
+export VAGRANT_DEFAULT_PROVIDER=virtualbox
+vagrant up --provider=virtualbox
+
+Yes, it is correct. Since vagrant-parallels v1.3.0 the Parallels provider has higher priority than VirtualBox.

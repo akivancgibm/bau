@@ -1,0 +1,5 @@
+https://developers.redhat.com/articles/csharp-container#the_cycle
+
+podman build -t hello-world-python .
+podman run -p 3333:3333 hello-world-python
+curl http://localhost:3333

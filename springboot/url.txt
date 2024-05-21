@@ -1,0 +1,25 @@
+https://start.spring.io/
+
+https://spring.io/guides/gs/spring-boot
+
+mesela docker için olursa
+
+ docker build --arch=arm64 --rm -t erangaeb/hello:arm64 .
+
+
+
+arm64 için pomda yapılmısı gereken değişiklik
+    <configuration>
+                <image>
+                    <builder>dashaun/builder:tiny</builder>
+                </image>
+    </configuration>
+
+https://github.com/dashaun/paketo-arm64
+
+mvn -Pnative spring-boot:build-image
+
+ podman run --arch=arm64 -dt -p 8080:8080/tcp docker.io/library/springboot:0.0.1-SNAPSHOT
+
+petclinic için
+https://developers.redhat.com/articles/2023/10/19/containerize-spring-boot-application-podman-desktop#containerizing_the_spring_boot_application

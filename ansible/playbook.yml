@@ -1,0 +1,11 @@
+---
+  - name: "MEF"
+    hosts: localhost
+    connection: local 
+    tasks:
+
+    - name: "just execute a brew command"
+      shell: "brew list"
+      register: "output"
+
+    - debug: var=output.stdout_lines

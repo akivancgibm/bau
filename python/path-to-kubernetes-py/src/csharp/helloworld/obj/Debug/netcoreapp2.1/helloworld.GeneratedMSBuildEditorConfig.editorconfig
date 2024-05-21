@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = helloworld
+build_property.ProjectDir = /Users/akivancgibm/akgdevibm/python/path-to-kubernetes-py/src/csharp/helloworld/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

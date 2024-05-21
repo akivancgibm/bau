@@ -1,0 +1,3 @@
+https://podman.io/get-started
+
+docker compatibility e basmak gerekiyor kurulumdan hemen sonra
