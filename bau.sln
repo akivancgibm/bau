@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "python", "python", "{B84AE788-14E8-43A1-A61F-F6A9E2666D1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "path-to-kubernetes-py", "path-to-kubernetes-py", "{FF9D25C1-1A1F-4486-8F10-892A32BEBEF2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6D1C42A1-C50F-4CE0-91B0-631A3578D86E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "csharp", "csharp", "{15B01C4E-8700-4C67-BD19-D8473D60BA40}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "helloworld", "python\path-to-kubernetes-py\src\csharp\helloworld\helloworld.csproj", "{59804259-065F-40E5-92BD-B4B35C7E6C60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59804259-065F-40E5-92BD-B4B35C7E6C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59804259-065F-40E5-92BD-B4B35C7E6C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59804259-065F-40E5-92BD-B4B35C7E6C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59804259-065F-40E5-92BD-B4B35C7E6C60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF9D25C1-1A1F-4486-8F10-892A32BEBEF2} = {B84AE788-14E8-43A1-A61F-F6A9E2666D1D}
+		{6D1C42A1-C50F-4CE0-91B0-631A3578D86E} = {FF9D25C1-1A1F-4486-8F10-892A32BEBEF2}
+		{15B01C4E-8700-4C67-BD19-D8473D60BA40} = {6D1C42A1-C50F-4CE0-91B0-631A3578D86E}
+		{59804259-065F-40E5-92BD-B4B35C7E6C60} = {15B01C4E-8700-4C67-BD19-D8473D60BA40}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34463288-55AF-4B91-83D7-A497D2344CFF}
+	EndGlobalSection
+EndGlobal

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J4JKtVeZ5iY=",
+  "dgSpecHash": "xMGeZ9dS4Y4=",
   "success": true,
-  "projectFilePath": "/Users/akivancgibm/akgdevibm/python/path-to-kubernetes-py/src/csharp/helloworld/helloworld.csproj",
+  "projectFilePath": "/Users/akivancgibm/akgdevibm/bau/python/path-to-kubernetes-py/src/csharp/helloworld/helloworld.csproj",
   "expectedPackageFiles": [
     "/Users/akivancgibm/.nuget/packages/microsoft.aspnet.webapi.client/5.2.6/microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "/Users/akivancgibm/.nuget/packages/microsoft.aspnetcore/2.1.1/microsoft.aspnetcore.2.1.1.nupkg.sha512",

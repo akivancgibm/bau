@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/akivancgibm/akgdevibm/python/path-to-kubernetes-py/src/csharp/helloworld/helloworld.csproj": {}
+    "/Users/akivancgibm/akgdevibm/bau/python/path-to-kubernetes-py/src/csharp/helloworld/helloworld.csproj": {}
   },
   "projects": {
-    "/Users/akivancgibm/akgdevibm/python/path-to-kubernetes-py/src/csharp/helloworld/helloworld.csproj": {
+    "/Users/akivancgibm/akgdevibm/bau/python/path-to-kubernetes-py/src/csharp/helloworld/helloworld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/akivancgibm/akgdevibm/python/path-to-kubernetes-py/src/csharp/helloworld/helloworld.csproj",
+        "projectUniqueName": "/Users/akivancgibm/akgdevibm/bau/python/path-to-kubernetes-py/src/csharp/helloworld/helloworld.csproj",
         "projectName": "helloworld",
-        "projectPath": "/Users/akivancgibm/akgdevibm/python/path-to-kubernetes-py/src/csharp/helloworld/helloworld.csproj",
+        "projectPath": "/Users/akivancgibm/akgdevibm/bau/python/path-to-kubernetes-py/src/csharp/helloworld/helloworld.csproj",
         "packagesPath": "/Users/akivancgibm/.nuget/packages/",
-        "outputPath": "/Users/akivancgibm/akgdevibm/python/path-to-kubernetes-py/src/csharp/helloworld/obj/",
+        "outputPath": "/Users/akivancgibm/akgdevibm/bau/python/path-to-kubernetes-py/src/csharp/helloworld/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/akivancgibm/.nuget/NuGet/NuGet.Config"
